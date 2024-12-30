@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  e-learning:
+    build:
+      context: ./E-learning # Dossier backend
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082" # Port backend
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+
+  frontend:
+    build:
+      context: ./e_Learning.M2I # Dossier frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80" # Port frontend
+
+  m2ibot:
+    image: nouraall/m2ibot:latest # Image du bot
+    ports:
+      - "5001:5000" # Port du bot
