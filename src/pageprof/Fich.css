@@ -1,0 +1,36 @@
+/* Applique l'animation sur le fond du wrapper */
+.animated-background {
+    position: relative; /* Nécessaire pour contenir les enfants */
+    min-height: 100vh; /* Occupe toute la hauteur de la page */
+    background-size: cover !important; /* Force la couverture de l'image */
+    background-position: center;
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    animation: slideBackground 20s infinite; /* Animation cyclique */
+}
+
+/* Animation des images de fond en mouvement horizontal */
+@keyframes slideBackground {
+    0% {
+        background-image: url('./im1.jpg');
+        background-position: 0% center;
+    }
+
+    50% {
+        background-image: url('./im4.jpg');
+        background-position: 300% center;
+    }
+
+    100% {
+        background-image: url('./im1.jpg');
+        background-position: 0% center;
+    }
+}
+
+/* Assure que les autres contenus ne sont pas affectés */
+#content-wrapper,
+#content,
+.container-fluid {
+    position: relative; /* Les contenus se superposent au fond */
+    z-index: 2; /* Place les contenus au-dessus du fond */
+    background: none; /* Aucun fond pour ces sections */
+}

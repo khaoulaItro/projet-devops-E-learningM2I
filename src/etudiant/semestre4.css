@@ -1,0 +1,53 @@
+.semestre4-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centre verticalement */
+    align-items: center;
+    /* Centre horizontalement */
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.semestre4-content {
+    margin-left: 250px;
+    /* Conserver l'espace pour la Sidebar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    /* Ajuste la hauteur visible */
+    background-color: #f9f9f9;
+    text-align: center;
+    flex-direction: column;
+    /* Aligne les enfants en colonne */
+}
+.sidebar {
+    width: 250px;
+    background-color: #e6f7f2;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    /* La Sidebar est fixe */
+    height: 100vh;
+    /* Prend toute la hauteur de l'écran */
+    z-index: 1001;
+    /* Assure que la Sidebar est au-dessus de la Topbar */
+    top: 0;
+    /* Positionnez en haut */
+    left: 0;
+    /* Positionnez sur le côté gauche */
+}
+
+.topbar {
+    position: relative;
+    /* Assurez-vous que la Topbar est en dessous */
+    z-index: 999;
+    /* Niveau inférieur à celui de la Sidebar */
+    height: 60px;
+    /* Hauteur fixe de la Topbar */
+    background-color: #1976d2;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}

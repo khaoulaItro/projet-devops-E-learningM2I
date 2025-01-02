@@ -1,0 +1,250 @@
+.dashboard-container {
+  display: flex;
+  gap: 20px;
+  /* Espacement entre les cartes */
+  padding: 20px;
+}
+
+.welcome-card,
+.company-card {
+  flex: 1;
+  /* Les cartes occupent le même espace disponible */
+  background: linear-gradient(135deg, #a0d8e6, #d3eff2)!important;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Espace entre le contenu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  /* Assure la même hauteur pour toutes les cartes */
+}
+
+.welcome-card img,
+.company-card img {
+  max-width: 200px;
+  max-height: 2000px;
+  object-fit: contain;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  /* Place le contenu verticalement */
+  justify-content: space-between;
+  /* Espace vertical équilibré */
+  text-align: left;
+}
+
+.company-card h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.company-card p {
+  margin: 5px 0;
+}
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stats-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stats-card p {
+  margin: 0;
+  color: #333;
+}
+
+.stats-card h3 {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style de la carte d'annonce */
+/* .annonces-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+} */
+
+.annonce-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 20px;
+  /* Pour une forme circulaire */
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.annonce-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.annonce-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.annonce-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Rendre la carte circulaire */
+.annonce-card-circle {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  /* Bordure circulaire */
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.annonce-card-circle h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.annonce-card-circle p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+}
+/* Conteneur des annonces */
+/* .annonces-container {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+} */
+
+/* Carte de chaque annonce */
+.annonce-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  /* Limite la largeur */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.annonce-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre de l'annonce, grand et centré */
+.annonce-card h5 {
+  font-size: 1.8rem;
+  /* Titre plus grand */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Description de l'annonce, taille plus petite */
+.annonce-card p.description {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: left;
+}
+
+/* Détails de l'annonce : Date, Heure, Type, taille plus petite */
+.annonce-card p.details {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.annonce-card .details strong {
+  color: #333;
+  /* Plus foncé pour les labels comme Date, Heure, etc. */
+}
+.annonce-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Aligner la date et l'heure à gauche avec un icône */
+.annonces-container p.details {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.annonces-container p.details i {
+  margin-right: 10px;
+  /* Espacement entre l'icône et le texte */
+  color: #666;
+  /* Couleur de l'icône */
+}
+
+/* Titre de l'annonce */
+.annonces-container h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Description de l'annonce */
+.annonces-container p.description {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: left;
+}

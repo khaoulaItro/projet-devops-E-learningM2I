@@ -1,0 +1,145 @@
+/* Ajoute cette règle pour que la barre de navigation soit en haut */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-home-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-home-container img {
+    height: 80px;
+    width: auto;
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 5px;
+}
+
+/* Modification principale pour placer le contenu en bas */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f8fa;
+    padding-top: 100px; /* Espace pour la navbar */
+    margin-top: 0; /* Enlever la marge négative */
+}
+
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .login-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.login-form {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    margin-right: 100px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.input-group label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    margin-bottom: 1.5rem;
+    position: relative; /* Ajouté pour le positionnement absolu des icônes */
+    border-radius: 8px;
+    height: 50px;
+}
+
+.icon {
+    font-size: 16px;
+    position: absolute; /* Assurez-vous que l'icône est positionnée absolument */
+    left: 10px; /* Positionne l'icône à gauche de l'input */
+    top: 50%;
+    transform: translateY(-50%); /* Corrige la position verticale */
+    color: #999; /* Couleur optionnelle pour l'icône */
+}
+
+.input-group input {
+    width: 100%; /* S'assurer que l'input prend toute la largeur */
+    padding: 0.75rem 0.75rem 0.75rem 40px; /* Ajoute du padding à gauche pour éviter le chevauchement avec l'icône */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.effacer-formulaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+    .effacer-formulaire a {
+        color: #6c63ff;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+.login-btn {
+    width: 100%;
+    height: 45px;
+    padding: 0.75rem;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    .login-btn:hover {
+        background-color: #5a54d9;
+    }
+
+.danger {
+    height: 2px;
+    color: red;
+    font-size: 12px;
+    bottom: 20px;
+}

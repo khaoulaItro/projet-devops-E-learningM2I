@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ForgotPassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\ForgotPassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Reset.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Reset.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\Sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Portal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\Portal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Userlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\Userlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Card.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\Card.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\sb-admin-2.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\sb-admin-2.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\UserView.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\UserView.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\setupTests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:annonces\\setupTests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\image.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\image.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\components\\Header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\Header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPassword.css",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.css",
+              "RelativeDocumentMoniker": "Pages\\ForgotPassword.css",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.css",
+              "RelativeToolTip": "Pages\\ForgotPassword.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-11T02:10:19.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPassword.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.js",
+              "RelativeDocumentMoniker": "Pages\\ForgotPassword.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\ForgotPassword.js",
+              "RelativeToolTip": "Pages\\ForgotPassword.js",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T02:01:28.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reset.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Reset.js",
+              "RelativeDocumentMoniker": "Pages\\Reset.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Reset.js",
+              "RelativeToolTip": "Pages\\Reset.js",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T02:01:13.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Card.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Card.js",
+              "RelativeDocumentMoniker": "annonces\\Card.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Card.js",
+              "RelativeToolTip": "annonces\\Card.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T01:56:44.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "sb-admin-2.min.css",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\sb-admin-2.min.css",
+              "RelativeDocumentMoniker": "annonces\\sb-admin-2.min.css",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\sb-admin-2.min.css",
+              "RelativeToolTip": "annonces\\sb-admin-2.min.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAXNQIA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-11T01:54:41.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Portal.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Portal.js",
+              "RelativeDocumentMoniker": "annonces\\Portal.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Portal.js",
+              "RelativeToolTip": "annonces\\Portal.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T01:54:36.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.css",
+              "RelativeDocumentMoniker": "Pages\\Login.css",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.css",
+              "RelativeToolTip": "Pages\\Login.css",
+              "ViewState": "AQIAACgAAAAAAAAAAAAuwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-11T01:44:59.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserView.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\UserView.js",
+              "RelativeDocumentMoniker": "annonces\\UserView.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\UserView.js",
+              "RelativeToolTip": "annonces\\UserView.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T01:35:17.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.js",
+              "RelativeDocumentMoniker": "Pages\\Login.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\Login.js",
+              "RelativeToolTip": "Pages\\Login.js",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAIwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T01:05:36.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Userlist.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Userlist.js",
+              "RelativeDocumentMoniker": "annonces\\Userlist.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Userlist.js",
+              "RelativeToolTip": "annonces\\Userlist.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T00:57:21.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\App.js",
+              "RelativeDocumentMoniker": "App.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\App.js",
+              "RelativeToolTip": "App.js",
+              "ViewState": "AQIAABAAAAAAAAAAAIAwwBwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T00:58:41.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sidebar.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Sidebar.js",
+              "RelativeDocumentMoniker": "annonces\\Sidebar.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\Sidebar.js",
+              "RelativeToolTip": "annonces\\Sidebar.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T00:57:42.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "setupTests.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\setupTests.js",
+              "RelativeDocumentMoniker": "annonces\\setupTests.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\annonces\\setupTests.js",
+              "RelativeToolTip": "annonces\\setupTests.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T00:57:44.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "image.png",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\image.png",
+              "RelativeDocumentMoniker": "Pages\\image.png",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\image.png",
+              "RelativeToolTip": "Pages\\image.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-11T01:23:50.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Header.js",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\components\\Header.js",
+              "RelativeDocumentMoniker": "components\\Header.js",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\components\\Header.js",
+              "RelativeToolTip": "components\\Header.js",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T01:08:19.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "Pages\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\disfra\\Desktop\\plateform-m2i\\src\\Pages\\HomePage.jsx",
+              "RelativeToolTip": "Pages\\HomePage.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-11T01:08:10.199Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

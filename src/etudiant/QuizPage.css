@@ -1,0 +1,91 @@
+.quiz-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.quiz-results h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.quiz-results h6 {
+    font-size: 1.8rem;
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.quiz-results .back-btn {
+    background-color: #1976d2;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.quiz-results .back-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.quiz-results-container {
+    animation: slideIn 1s ease-out;
+}
+
+.confetti {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background-image: url('https://i.postimg.cc/3x3QzSGq/confetti.png');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+    animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.quiz-results h5.failed {
+    color: #ff5722;
+    /* لون أحمر مرح */
+}
+
+.quiz-results h5.failed::before {
+    content: "😅";
+    margin-right: 10px;
+}

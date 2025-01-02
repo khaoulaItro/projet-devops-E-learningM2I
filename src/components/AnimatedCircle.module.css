@@ -1,0 +1,45 @@
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(20px, -10px);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.animatedCircle {
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: -1;
+    /* Derrière le texte */
+    animation: move 3s infinite ease-in-out;
+}
+
+.circle1 {
+    background: linear-gradient(45deg, #a1a9b5, #a8c8e9);
+}
+
+.circle2 {
+    background: linear-gradient(45deg, #93acc5, #dbebf8);
+}
+
+.circle3 {
+    background: linear-gradient(45deg, #42a5f5, #64b5f6);
+}
+
+.circle4 {
+    background: linear-gradient(45deg, #64b5f6, #90caf9);
+}
+
+.circle5 {
+    background: linear-gradient(45deg, #90caf9, #bbdefb);
+}

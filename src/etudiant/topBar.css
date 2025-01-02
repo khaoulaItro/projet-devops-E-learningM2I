@@ -1,0 +1,152 @@
+.topbar {
+    position: fixed;
+    /* Fixe la topbar en haut de l'écran */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #4caf50;
+    /* Couleur de la topbar */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Plus bas que la sidebar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.topbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Topbar.css */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    display: block;
+}
+
+.modal-dialog {
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.close {
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+}
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    /* Image en haut */
+    align-items: center;
+    /* Centrer l'image */
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* Cercle autour de l'image */
+    border: 5px solid #4CAF50;
+    /* Cadre circulaire */
+    padding: 5px;
+    object-fit: cover;
+    /* S'assurer que l'image remplit correctement le cadre */
+    margin-bottom: 20px;
+    /* Augmente la marge pour espacer l'image du texte */
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    /* Sépare les informations à gauche et à droite */
+    width: 100%;
+    padding: 0 20px;
+}
+
+.profile-left,
+.profile-right {
+    width: 45%;
+    /* Répartir les informations à gauche et à droite */
+}
+
+.profile-left p,
+.profile-right p {
+    margin: 5px 0;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-secondary {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Mode clair par défaut */
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.topbar {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Mode sombre */
+body.dark-mode {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #e0e0e0; /* Couleur de texte claire */
+}
+
+body.dark-mode .topbar {
+    background-color: #333; /* Couleur de fond de la topbar en mode sombre */
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #e0e0e0; /* Couleur du texte en mode sombre */
+}
+
+body.dark-mode .modal-content {
+    background-color: #1e1e1e; /* Fond modal sombre */
+    color: #e0e0e0; /* Texte modal clair */
+}
+
+body.dark-mode .modal-header {
+    border-bottom: 1px solid #444;
+}
+
+/* Styles des icônes */
+body.dark-mode .btn-link {
+    color: #e0e0e0; /* Couleur de l'icône en mode sombre */
+}

@@ -1,0 +1,37 @@
+/* Icône pour afficher/masquer la barre latérale */
+.toggle-icon {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #61a5c2;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Superposition pour masquer la barre latérale lorsqu'on clique à l'extérieur */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+/* Animation pour la barre latérale */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
