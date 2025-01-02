@@ -1,0 +1,40 @@
+
+
+services:
+  # Zipkin for distributed tracing
+  zipkin:
+    container_name: zipkin-service
+    image: openzipkin/zipkin:latest
+    restart: always
+    ports:
+      - "9411:9411"  # Assurez-vous que ce port est libre
+
+  # Prometheus for monitoring
+  prometheus:
+    container_name: prometheus-service
+    image: prom/prometheus
+    restart: always
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./docker/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  # Grafana for visualization
+  grafana:
+    container_name: grafana-service
+    image: grafana/grafana
+    restart: always
+    ports:
+      - "3001:3000"
+    depends_on:
+      - prometheus
+
+
+
+
+
+
